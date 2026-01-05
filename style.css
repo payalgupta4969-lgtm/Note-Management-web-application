@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  height: 70px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.note {
+  background: #eee;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.note button {
+  margin-top: 5px;
+  background: #f44336;
+}
+
+.edit {
+  background: #2196F3;
+  margin-right: 5px;
+}
+
+#error {
+  color: red;
+}
